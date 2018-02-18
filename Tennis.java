@@ -17,7 +17,7 @@ public class Tennis extends JFrame implements ActionListener {
 	private JLabel Score_p2 = new JLabel("0", JLabel.CENTER);
 	private JPanel panel = new JPanel();	
 	private JButton[] b = new JButton[4];
-	private String[] s = { "Nytt spel","Paus", "Fortsätt", "Avsluta" };
+	private String[] s = { "New Game","Paus", "Continue", "Quit" };
 	
 	public Tennis(){
 		
